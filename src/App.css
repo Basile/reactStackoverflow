@@ -1,0 +1,57 @@
+.App {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.col {
+    float: left;
+    padding: 10px;
+}
+
+.col-author {
+    width: 180px;
+}
+
+.col-header {
+    width: 630px;
+}
+
+.col-date {
+    float: left;
+    width: 128px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row:hover {
+    cursor: pointer;
+    background-color: #eee;
+}
+
+.row.header {
+    font-weight: bold;
+    border-bottom: 1px solid #888;
+}
+
+.row.info {
+    padding: 10px;
+}
+
+.content {
+    height: 600px;
+    overflow: scroll;
+}
+
+.popupContent {
+    max-height: 500px;
+    overflow: scroll;
+}
+
+.popupClose {
+    text-align: right;
+    margin-bottom: 5px;
+}
